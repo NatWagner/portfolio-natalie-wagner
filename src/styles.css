@@ -91,3 +91,17 @@ a.primary-link {
   padding: 20px 15px;
   text-decoration: none;
 }
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 75px;
+  }
+
+  .contact-heading {
+    font-size: 30px;
+  }
+
+  .email-link {
+    font-size: 20px;
+  }
+}
