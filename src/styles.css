@@ -48,7 +48,7 @@ p {
 }
 
 .home {
-  background-image: url("../images/backgrounds/homepage-background-image.jpg");
+  background-image: url("../images/backgrounds/homepage-background-image.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -112,7 +112,7 @@ p {
 }
 
 .work-page-body {
-  background-image: url("../images/backgrounds/work-page-background.jpg");
+  background-image: url("../images/backgrounds/work-page-background.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -153,7 +153,7 @@ a.primary-link:hover {
 }
 
 .contact-page-body {
-  background-image: url("../images/backgrounds/contact-page-background.jpg");
+  background-image: url("../images/backgrounds/contact-page-background.webp");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 70px 0px;
