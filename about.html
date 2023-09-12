@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="images/natalie-wagner-logo.png" />
     <meta
       name="description"
       content="About page of Front-end Developer Natalie Wagner"
@@ -19,6 +20,16 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/e6a7364197.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -36,7 +47,7 @@
     <link rel="stylesheet" href="src/styles.css" />
     <title>About | Natalie Wagner</title>
   </head>
-  <body>
+  <body class="about">
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container d-flex align-items-center">
         <a class="navbar-brand" href="#" title="Homepage">Natalie Wagner</a>
@@ -57,74 +68,148 @@
               <a
                 class="nav-link"
                 aria-current="page"
-                href="/index.html"
+                href="index.html"
                 title="Homepage"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link active"
-                href="/about.html"
-                title="About Natalie Wagner"
-                >About me</a
+              <a class="nav-link active" href="about.html" title="About Natalie"
+                >About</a
               >
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link"
-                href="/about.html#contact"
-                title="Contact Natalie Wagner"
-                >Contact me</a
+              <a class="nav-link" href="work.html" title="Natalies' Work"
+                >Work</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html" title="Contact Natalie"
+                >Contact</a
               >
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <h1 class="text-center">About me</h1>
-    <h3 class="text-center">Front-end developer from Munich, Germany</h3>
-    <div class="about-paragraphs text-center">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum.
-      </p>
-    </div>
-    <div class="container">
-      <div class="row d-flex">
-        <div class="col-sm-4">
-          <img
-            src="images/yoga.png"
-            alt="Yoga app preview"
-            class="img-fluid p-2 mb-4 shadow rounded"
-          />
+    <div class="text-white">
+      <h2 class="about-page-h2 text-center">Hey there, I am</h2>
+      <h1 class="text-center pb-3">- Natalie -</h1>
+      <h3 class="text-center">
+        <small>GER</small> Front-end developer and creative soul, currently
+        based in Switzerland
+      </h3>
+
+      <div class="about-paragraph text-center">
+        <p>
+          From a young age I loved creating in many different ways. After I
+          finished school in Munich, GER I moved abroad and worked
+          internationally full time in the hospitality industry. After a total
+          of 13 years I reached a point in life where I desire to change my
+          path, learn new skills and finally find my way back to creativity and
+          my wish to support more sustainable ways of living. Getting into Web
+          Development opened a door for me I propably never even considered
+          looking at. I want to get my vision out in the world with the ability
+          of using modern tools. So if your goal is to have a functional website
+          which covers topics like environment, sustainability, art, crafts,
+          culture, animals, nature, etc. then hit me up. I am looking forward to
+          work with you.
+        </p>
+      
+          <div class="container">
+            <div class="certificates row d-none d-md-flex">
+              <div class="col-sm-2">
+                <img
+                  src="images/SheCodes Basic Certificate.png"
+                  alt="SheCodes Basic Certificate"
+                  class="cert1 img-fluid p-2 mb-4 shadow rounded"
+                />
+              </div>
+              <div class="col-sm-2">
+                <img
+                  src="images/SheCodes Basic Add-on Certificate.png"
+                  alt="SheCodes Basic Add-On Certificate"
+                  class="cert2 img-fluid p-2 mb-4 shadow rounded"
+                />
+              </div>
+              <div class="col-sm-2">
+                <img
+                  src="images/SheCodes Plus Certificate.png"
+                  alt="SheCodes Plus Certificate"
+                  class="cert3 img-fluid p-2 mb-4 shadow rounded"
+                />
+              </div>
+              <div class="col-sm-2">
+                <img
+                  src="images/SheCodes Plus Add-on Certificate.png"
+                  alt="SheCodes Plus Add-On Certificate"
+                  class="cert4 img-fluid p-2 mb-4 shadow rounded"
+                />
+              </div>
+              <div class="col-sm-2">
+                <img
+                  src="images/CodeInstitute 5DCC-Certificate.jpg"
+                  alt="CodeInstitute Certificate"
+                  class="cert5 img-fluid p-2 mb-4 shadow rounded"
+                />
+              </div>
+              <div class="col-sm-2">
+                <img
+                  src="images/Mimo-Certificate.png"
+                  alt="Mimo Certificate"
+                  class="cert6 img-fluid p-2 mb-4 shadow rounded"
+                />
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-sm-4">
-          <img
-            src="images/weather.png"
-            alt="Weather app preview"
-            class="img-fluid p-2 mb-4 shadow rounded"
-          />
-        </div>
-        <div class="col-sm-4">
-          <img
-            src="images/yogurt.png"
-            alt="Yogurt app preview"
-            class="img-fluid p-2 mb-4 shadow rounded"
-          />
-        </div>
-      </div>
-    </div>
     <div id="contact" class="mt-5">
-      <h2 class="contact-heading text-center">📮 Contact me</h2>
-      <a
-        href="mailto:nataliewagner1993@gmail.com"
-        class="email-link"
-        title="Contact Email"
-        >nataliewagner1993@gmail.com</a
-      >
+      <footer class="container">
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="mailto:nataliewagner1993@gmail.com"
+            class="email-link"
+            title="Natalies' Email"
+            ><i class="fa-solid fa-at"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/chandani.arts/"
+            target="_blank"
+            title="Instagram Profile"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/natalie-wagner1993/"
+            target="_blank"
+            title="Linkedin Profile"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            href="https://github.com/NatWagner"
+            target="_blank"
+            title="GitHub link"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+        <p class="text-center text-white-50 mt-5">
+          © open sourced
+          <a
+            href="https://github.com/NatWagner/portfolio-of-natalie-wagner"
+            target="_blank"
+            title="GitHub project link"
+            class="text-decoration-none text-white"
+            >code</a
+          >
+          & design by
+          <a
+            href="https://www.shecodes.io/graduates/60053-natalie-wagner"
+            target="_blank"
+            class="text-decoration-none text-white coder"
+          >
+            Natalie Wagner</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>

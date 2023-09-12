@@ -1,6 +1,7 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --primary-color: #698269;
+  --secondary-color: #f1dbbf;
+  --third-color: #aa5656;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -15,16 +16,20 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 56px;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 43px;
 }
 
 h3 {
   font-size: 24px;
   opacity: 0.7;
+}
+
+h3 {
+  font-size: 48px;
 }
 
 p {
@@ -48,13 +53,24 @@ p {
 
 .contact-link {
   background: var(--primary-color);
-  box-shadow: var(--box-shadow);
   color: white;
+}
+
+.contact-link:hover {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
 }
 
 .about-link {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+}
+
+.about-link:hover {
+  color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
 }
 
 .homepage-link {
@@ -63,38 +79,151 @@ p {
   display: block;
 }
 
-.about-paragraphs {
-  margin: 30px 0;
+.homepage-h2 {
+  font-size: 40px;
 }
 
-.about-paragraphs p {
-  margin: 10px;
-}
-
-.email-link {
-  display: flex;
-  justify-content: center;
+.launch-link {
   color: var(--primary-color);
-  font-size: 28px;
-  text-decoration: none;
+  border: 1px solid var(--primary-color);
 }
 
-.email-link:hover {
-  text-decoration: underline;
+.home {
+  background-image: url("../images/homepage-background-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.homepage-h2,
+.about-page-h2,
+.contact-page-heading,
+.work-page-heading {
+  text-shadow: 3px 7px 6px rgba(255, 255, 255, 0.3);
+}
+
+.about {
+  background-image: url("../images/about-page-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-paragraph {
+  margin: 30px 10px;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: rgb(105, 130, 105, 0.6);
+}
+
+.about-paragraph p {
+  margin: 10px;
+  padding-bottom: 15px;
+}
+
+.certificates,
+.work-page-container img {
+  filter: saturate(0%) brightness(90%) contrast(110%);
+}
+
+.certificates:hover {
+  filter: saturate(100%);
+  transition: all 2000ms ease-in-out;
+}
+
+.work-page-container img {
+  padding: 5px;
+  background-color: var(--secondary-color);
+  width: 450px;
+}
+
+.work-page-container img:hover {
+  filter: saturate(100%);
+  transition: all 450ms ease-in-out;
+}
+
+.cert1:hover,
+.cert2:hover,
+.cert3:hover,
+.cert4:hover,
+.cert5:hover,
+.cert6:hover {
+  transform: scale(2.5, 2.5);
+  transition: all 2000ms ease-in-out;
 }
 
 a.primary-link {
-  background-color: var(--primary-color);
-  box-shadow: var(--box-shadow);
+  background: var(--primary-color);
+  color: white;
   border-radius: 4px;
-  color: rgb(255, 255, 255);
-  padding: 20px 15px;
+  padding: 15px 10px;
   text-decoration: none;
+}
+
+a.primary-link:hover {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
+}
+
+.work-page-body {
+  background-image: url("../images/work-page-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-page-body {
+  background-image: url("../images/contact-page-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 70px 0px;
+}
+
+.contact-page-image {
+  height: 300px;
+  filter: saturate(80%);
+}
+
+.contact-paragraph {
+  line-height: 70px;
+}
+
+.contact-paragraph a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 21px;
+}
+
+.contact-paragraph a:hover {
+  font-size: 22px;
+  padding-left: 5px;
+  transition: all 450ms ease-in-out;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+}
+
+footer p {
+  font-size: 8px;
 }
 
 @media (max-width: 576px) {
   h1 {
-    font-size: 55px;
+    font-size: 45px;
     line-height: 1.5;
   }
 
@@ -102,12 +231,29 @@ a.primary-link {
     text-align: center;
   }
 
+  h3 {
+    font-size: 26px;
+  }
+
   p {
     text-align: center;
   }
 
+  .about {
+    background-position: 50%;
+  }
+
   .contact-heading {
     font-size: 30px;
+  }
+
+  .contact-page-image {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .contact-paragraph {
+    margin-top: 30px;
   }
 
   .email-link {
@@ -118,5 +264,21 @@ a.primary-link {
     display: block;
     text-align: center;
     margin: 0 15px;
+  }
+
+  a.primary-link {
+    padding: 10px 5px;
+  }
+
+  .work-page-heading {
+    font-size: 38px;
+  }
+
+  .work-page-heading {
+    margin-bottom: 60px;
+  }
+
+  .work-page-container h2 {
+    font-size: 32px;
   }
 }
