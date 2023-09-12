@@ -24,12 +24,8 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 30px;
   opacity: 0.7;
-}
-
-h3 {
-  font-size: 48px;
 }
 
 p {
@@ -51,23 +47,20 @@ p {
   text-transform: capitalize;
 }
 
+.home {
+  background-image: url("../images/backgrounds/homepage-background-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-link,
 .contact-link {
-  background: var(--primary-color);
-  color: white;
-}
-
-.contact-link:hover {
-  background: var(--secondary-color);
-  color: var(--primary-color);
-  transition: all 100ms ease-in-out;
-}
-
-.about-link {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
 
-.about-link:hover {
+.about-link:hover,
+.contact-link:hover {
   color: var(--secondary-color);
   border-color: var(--secondary-color);
   transition: all 100ms ease-in-out;
@@ -81,17 +74,6 @@ p {
 
 .homepage-h2 {
   font-size: 40px;
-}
-
-.launch-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-}
-
-.home {
-  background-image: url("../images/backgrounds/homepage-background-image.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .homepage-h2,
@@ -129,6 +111,12 @@ p {
   transition: all 2000ms ease-in-out;
 }
 
+.work-page-body {
+  background-image: url("../images/backgrounds/work-page-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .work-page-container img {
   padding: 5px;
   background-color: var(--secondary-color);
@@ -162,12 +150,6 @@ a.primary-link:hover {
   background: var(--secondary-color);
   color: var(--primary-color);
   transition: all 100ms ease-in-out;
-}
-
-.work-page-body {
-  background-image: url("../images/backgrounds/work-page-background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .contact-page-body {
