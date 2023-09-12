@@ -89,7 +89,7 @@ p {
 }
 
 .home {
-  background-image: url("../images/homepage-background-image.jpg");
+  background-image: url("../images/backgrounds/homepage-background-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -102,7 +102,7 @@ p {
 }
 
 .about {
-  background-image: url("../images/about-page-background.jpg");
+  background-image: url("../images/backgrounds/about-page-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -165,13 +165,13 @@ a.primary-link:hover {
 }
 
 .work-page-body {
-  background-image: url("../images/work-page-background.jpg");
+  background-image: url("../images/backgrounds/work-page-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .contact-page-body {
-  background-image: url("../images/contact-page-background.jpg");
+  background-image: url("../images/backgrounds/contact-page-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 70px 0px;
@@ -272,10 +272,7 @@ footer p {
 
   .work-page-heading {
     font-size: 38px;
-  }
-
-  .work-page-heading {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
   }
 
   .work-page-container h2 {
