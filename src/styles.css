@@ -229,6 +229,10 @@ footer p {
     background-position: 50%;
   }
 
+  .contact-page-body {
+    background-position: 55%;
+  }
+
   .contact-heading {
     font-size: 30px;
   }
