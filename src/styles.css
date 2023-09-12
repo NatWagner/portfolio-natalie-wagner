@@ -37,24 +37,25 @@ p {
   padding: 0;
 }
 
+.home {
+  background-image: url("../images/backgrounds/homepage-background-image.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
   justify-content: center;
 }
 
-.navigation-links a {
+.navigation-links a,
+.learn-more-link {
   margin: 20px;
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-}
-
-.home {
-  background-image: url("../images/backgrounds/homepage-background-image.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .about-link,
@@ -70,10 +71,15 @@ p {
   transition: all 100ms ease-in-out;
 }
 
-.homepage-link {
+.learn-more-link {
+  color: white;
+  background-color: var(--primary-color);
+}
+
+.learn-more-link:hover {
   color: var(--primary-color);
-  text-align: center;
-  display: block;
+  background-color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
 }
 
 .homepage-h2 {
@@ -115,6 +121,16 @@ p {
   transition: all 2000ms ease-in-out;
 }
 
+.cert1:hover,
+.cert2:hover,
+.cert3:hover,
+.cert4:hover,
+.cert5:hover,
+.cert6:hover {
+  transform: scale(2.5, 2.5);
+  transition: all 2000ms ease-in-out;
+}
+
 .work-page-body {
   background-image: url("../images/backgrounds/work-page-background.webp");
   background-repeat: no-repeat;
@@ -132,28 +148,18 @@ p {
   transition: all 450ms ease-in-out;
 }
 
-.cert1:hover,
-.cert2:hover,
-.cert3:hover,
-.cert4:hover,
-.cert5:hover,
-.cert6:hover {
-  transform: scale(2.5, 2.5);
-  transition: all 2000ms ease-in-out;
-}
-
-a.primary-link {
-  background: var(--primary-color);
+a.launch-link {
   color: white;
+  background: var(--primary-color);
   border-radius: 4px;
   padding: 15px 10px;
   text-decoration: none;
 }
 
-a.primary-link:hover {
-  background: var(--secondary-color);
+a.launch-link:hover {
   color: var(--primary-color);
-  transition: all 100ms ease-in-out;
+  background: var(--secondary-color);
+  transition: all 200ms ease-in-out;
 }
 
 .contact-page-body {
