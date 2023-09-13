@@ -231,8 +231,32 @@ footer p {
     text-align: center;
   }
 
+  .home {
+    background-position: 35%;
+  }
+
+  .primary-button {
+    display: block;
+    text-align: center;
+    margin: 0 15px;
+  }
+
+  a.learn-more-link,
+  a.launch-links {
+    padding: 10px 5px;
+  }
+
   .about {
     background-position: 50%;
+  }
+
+  .work-page-heading {
+    font-size: 35px;
+    margin-bottom: 50px;
+  }
+
+  .work-page-container h2 {
+    font-size: 32px;
   }
 
   .contact-page-body {
@@ -254,24 +278,5 @@ footer p {
 
   .email-link {
     font-size: 20px;
-  }
-
-  .primary-button {
-    display: block;
-    text-align: center;
-    margin: 0 15px;
-  }
-
-  a.primary-link {
-    padding: 10px 5px;
-  }
-
-  .work-page-heading {
-    font-size: 35px;
-    margin-bottom: 50px;
-  }
-
-  .work-page-container h2 {
-    font-size: 32px;
   }
 }
