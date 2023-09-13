@@ -163,7 +163,8 @@ a.launch-link:hover {
 }
 
 .contact-page-body {
-  background-image: url("../images/backgrounds/contact-page-background.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/backgrounds/contact-page-background.webp");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 70px 0px;
