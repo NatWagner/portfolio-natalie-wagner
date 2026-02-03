@@ -268,8 +268,8 @@ footer p {
   }
 
   .contact-page-image {
-    display: block;
-    margin: 0 auto;
+    display: grid;
+    place-items: center;
   }
 
   .contact-paragraph {
